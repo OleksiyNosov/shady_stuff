@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bu430jx50wc27"]
+
+[ext_resource type="Shader" path="res://scenes/hologram_shere.gdshader" id="1_mnugq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hmd0w"]
+render_priority = 0
+shader = ExtResource("1_mnugq")
+
+[sub_resource type="SphereMesh" id="SphereMesh_0hsx3"]
+
+[node name="HologramShere" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_hmd0w")
+mesh = SubResource("SphereMesh_0hsx3")
