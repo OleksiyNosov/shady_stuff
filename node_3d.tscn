@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dghsbak74m3lc"]
+
+[ext_resource type="Shader" path="res://node_3d.gdshader" id="1_idlqv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kjje1"]
+render_priority = 0
+shader = ExtResource("1_idlqv")
+
+[sub_resource type="SphereMesh" id="SphereMesh_32g3y"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_kjje1")
+mesh = SubResource("SphereMesh_32g3y")
