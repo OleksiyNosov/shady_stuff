@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bojwasasnb2ld"]
+
+[ext_resource type="Shader" path="res://scenes/uv_plane.gdshader" id="1_younl"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jbw8k"]
+render_priority = 0
+shader = ExtResource("1_younl")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_r0vx7"]
+
+[node name="UvBall" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_jbw8k")
+mesh = SubResource("PlaneMesh_r0vx7")
