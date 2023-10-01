@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://ope1hacbftt4"]
+
+[ext_resource type="Shader" path="res://scenes/rainbow_worm.gdshader" id="1_hxlos"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_geury"]
+render_priority = 0
+shader = ExtResource("1_hxlos")
+
+[sub_resource type="SphereMesh" id="SphereMesh_dd0wf"]
+
+[node name="RainbowWorm" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_geury")
+mesh = SubResource("SphereMesh_dd0wf")
