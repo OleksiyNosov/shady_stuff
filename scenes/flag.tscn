@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://dghsbak74m3lc"]
 
-[ext_resource type="Shader" path="res://flag.gdshader" id="1_yhkyl"]
+[ext_resource type="Shader" path="res://scenes/flag.gdshader" id="1_1ldp4"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kjje1"]
 render_priority = 0
-shader = ExtResource("1_yhkyl")
+shader = ExtResource("1_1ldp4")
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_lhjf4"]
 
