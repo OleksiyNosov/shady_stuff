@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://cbt6ptrlda1s3"]
+
+[ext_resource type="Shader" path="res://scenes/mesh_practice.gdshader" id="1_55db8"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_jmgr4"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_3r8np"]
+noise = SubResource("FastNoiseLite_jmgr4")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3obvs"]
+render_priority = 0
+shader = ExtResource("1_55db8")
+shader_parameter/noise = SubResource("NoiseTexture2D_3r8np")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ukboj"]
+material = SubResource("ShaderMaterial_3obvs")
+subdivide_width = 32
+subdivide_depth = 32
+
+[node name="MeshPractice" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_ukboj")
