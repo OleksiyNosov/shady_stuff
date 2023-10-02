@@ -13,3 +13,8 @@ shader = ExtResource("1_hxlos")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 material_override = SubResource("ShaderMaterial_geury")
 mesh = SubResource("SphereMesh_dd0wf")
+
+[node name="Camera3D" type="Camera3D" parent="MeshInstance3D"]
+transform = Transform3D(0.937495, -3.28289e-07, 0.347999, -0.119747, 0.938932, 0.322594, -0.326748, -0.344102, 0.880244, 1.41279, 1.74615, 2.2658)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
