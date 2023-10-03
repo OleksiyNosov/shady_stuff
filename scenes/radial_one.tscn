@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://0nxtglpq5b0y"]
+
+[ext_resource type="Shader" path="res://scenes/radial_one.gdshader" id="1_ii0td"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_l48rt"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_c6qoe"]
+noise = SubResource("FastNoiseLite_l48rt")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_th0mq"]
+render_priority = 0
+shader = ExtResource("1_ii0td")
+shader_parameter/noise = SubResource("NoiseTexture2D_c6qoe")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_inp30"]
+
+[node name="RadialOne" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_th0mq")
+mesh = SubResource("PlaneMesh_inp30")
