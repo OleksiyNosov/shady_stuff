@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bojwasasnb2ld"]
 
-[ext_resource type="Shader" path="res://scenes/uv_plane.gdshader" id="1_younl"]
+[ext_resource type="Shader" path="res://scenes/planes/uv_plane.gdshader" id="1_younl"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jbw8k"]
 render_priority = 0
