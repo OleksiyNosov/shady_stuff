@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://dr2rul4prjaqu"]
+
+[ext_resource type="Shader" path="res://scenes/planes/basic_movement.gdshader" id="1_j7dcy"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_ok6ol"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_v635e"]
+noise = SubResource("FastNoiseLite_ok6ol")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xhlu7"]
+render_priority = 0
+shader = ExtResource("1_j7dcy")
+shader_parameter/noise = SubResource("NoiseTexture2D_v635e")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8upwf"]
+
+[node name="BasicMovement" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_xhlu7")
+mesh = SubResource("PlaneMesh_8upwf")
