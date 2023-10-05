@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://yocgoktpnkwc"]
+
+[ext_resource type="Shader" path="res://scenes/planes/whirpool.gdshader" id="1_37wck"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_qmfqd"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_qrexd"]
+noise = SubResource("FastNoiseLite_qmfqd")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jjwqt"]
+render_priority = 0
+shader = ExtResource("1_37wck")
+shader_parameter/noise = SubResource("NoiseTexture2D_qrexd")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_uql2f"]
+
+[node name="Whirpool" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_jjwqt")
+mesh = SubResource("PlaneMesh_uql2f")
