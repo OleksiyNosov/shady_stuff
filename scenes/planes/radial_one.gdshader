@@ -1,8 +1,7 @@
 shader_type spatial;
 
-#include "res://scenes/colors.gdshaderinc"
-#include "res://scenes/utils.gdshaderinc"
-#include "res://scenes/utils.gdshaderinc"
+#include "res://shaders/includes/colors.gdshaderinc"
+#include "res://shaders/includes/utils.gdshaderinc"
 
 uniform sampler2D noise;
 
