@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://yocgoktpnkwc"]
 
-[ext_resource type="Shader" path="res://scenes/planes/whirpool.gdshader" id="1_37wck"]
+[ext_resource type="Shader" path="res://scenes/spartial/planes/whirpool.gdshader" id="1_37wck"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_qmfqd"]
 

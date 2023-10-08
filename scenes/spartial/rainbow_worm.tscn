@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ope1hacbftt4"]
 
-[ext_resource type="Shader" path="res://scenes/rainbow_worm.gdshader" id="1_hxlos"]
+[ext_resource type="Shader" path="res://scenes/spartial/rainbow_worm.gdshader" id="1_hxlos"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_geury"]
 render_priority = 0

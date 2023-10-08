@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://pepmet0hxkg5"]
 
-[ext_resource type="Shader" path="res://scenes/planes/elevation_level.gdshader" id="1_5ws8e"]
+[ext_resource type="Shader" path="res://scenes/spartial/planes/elevation_level.gdshader" id="1_5ws8e"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_cl7mf"]
 

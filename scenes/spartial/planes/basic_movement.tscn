@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://dr2rul4prjaqu"]
 
-[ext_resource type="Shader" path="res://scenes/planes/basic_movement.gdshader" id="1_j7dcy"]
+[ext_resource type="Shader" path="res://scenes/spartial/planes/basic_movement.gdshader" id="1_j7dcy"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_ok6ol"]
 

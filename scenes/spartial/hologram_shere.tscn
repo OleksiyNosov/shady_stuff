@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bu430jx50wc27"]
 
-[ext_resource type="Shader" path="res://scenes/hologram_shere.gdshader" id="1_mnugq"]
+[ext_resource type="Shader" path="res://scenes/spartial/hologram_shere.gdshader" id="1_mnugq"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_hmd0w"]
 render_priority = 0

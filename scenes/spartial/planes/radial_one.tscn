@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://0nxtglpq5b0y"]
 
-[ext_resource type="Shader" path="res://scenes/planes/radial_one.gdshader" id="1_ii0td"]
+[ext_resource type="Shader" path="res://scenes/spartial/planes/radial_one.gdshader" id="1_ii0td"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_l48rt"]
 
