@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://ca7rhqb2un7cc"]
+
+[ext_resource type="Shader" path="res://scenes/spartial/planes/the_art_one.gdshader" id="1_h1f2q"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vbcyo"]
+render_priority = 0
+shader = ExtResource("1_h1f2q")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ulusr"]
+
+[node name="TheArtOne" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_vbcyo")
+mesh = SubResource("PlaneMesh_ulusr")
