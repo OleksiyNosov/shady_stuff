@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://c800vrc2vdjca"]
+[gd_scene format=3 uid="uid://c800vrc2vdjca"]
 
-[ext_resource type="Shader" path="res://scenes/spartial/glass_sphere.gdshader" id="1_raktw"]
+[ext_resource type="Shader" uid="uid://cwhyg6k8ayb8q" path="res://scenes/spartial/glass_sphere.gdshader" id="1_raktw"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kakn5"]
 render_priority = 0
@@ -8,8 +8,8 @@ shader = ExtResource("1_raktw")
 
 [sub_resource type="SphereMesh" id="SphereMesh_usr3a"]
 
-[node name="GlassSphere" type="Node3D"]
+[node name="GlassSphere" type="Node3D" unique_id=1158259442]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1658538282]
 material_override = SubResource("ShaderMaterial_kakn5")
 mesh = SubResource("SphereMesh_usr3a")
