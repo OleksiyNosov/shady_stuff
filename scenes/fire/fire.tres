@@ -16,7 +16,7 @@ texture_type = 1
 output_port_for_preview = 0
 
 [sub_resource type="VisualShaderNodeFrame" id="VisualShaderNodeFrame_gcoj6"]
-size = Vector2(2118, 1305.0002)
+size = Vector2(2118, 1305)
 title = "Base"
 tint_color_enabled = true
 attached_nodes = PackedInt32Array(8, 7, 6, 3, 9, 4, 2, 5, 14, 15, 16)
@@ -97,13 +97,13 @@ flags/unshaded = true
 preview_params/TextureAdd = "Object(GradientTexture2D,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"gradient\":Object(Gradient,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"interpolation_mode\":0,\"interpolation_color_space\":0,\"offsets\":PackedFloat32Array(0, 1),\"colors\":PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1),\"script\":null)
 ,\"width\":64,\"height\":64,\"use_hdr\":false,\"fill\":0,\"fill_from\":Vector2(0, 0),\"fill_to\":Vector2(0, 1),\"repeat\":0,\"script\":null)
 "
-preview_params/Speed = "Vector2(0, 0.2)"
-preview_params/Scale = "Vector2(4, 1)"
+preview_params/Speed = "Vector2(0, 0.5)"
+preview_params/Scale = "Vector2(1, 0.25)"
 preview_params/TextureBase = "Resource(\"uid://bqffshariur0m\", \"res://scenes/fire/fire_texture_tiled.png\")"
 preview_params/TextureSubtract = "Object(GradientTexture2D,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"gradient\":Object(Gradient,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"interpolation_mode\":0,\"interpolation_color_space\":0,\"offsets\":PackedFloat32Array(0.029593095, 0.21701603, 0.37704918, 0.7595561, 1),\"colors\":PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1),\"script\":null)
-,\"width\":64,\"height\":64,\"use_hdr\":false,\"fill\":0,\"fill_from\":Vector2(0, 0.92877495),\"fill_to\":Vector2(0.0028490028, 0.12820514),\"repeat\":0,\"script\":null)
+,\"width\":64,\"height\":64,\"use_hdr\":false,\"fill\":0,\"fill_from\":Vector2(0, 0.92877495),\"fill_to\":Vector2(0, 0.2022792),\"repeat\":0,\"script\":null)
 "
-preview_params/ColorPalette = "Object(GradientTexture1D,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"gradient\":Object(Gradient,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"interpolation_mode\":0,\"interpolation_color_space\":0,\"offsets\":PackedFloat32Array(0, 0.46855733, 0.7361282, 0.9543773),\"colors\":PackedColorArray(0.91, 0.40040007, 0.14560002, 0, 1.4964324, 0.67714757, 0.26750505, 1, 1.7770933, 0.98984295, 0.3878282, 1, 1.6411257, 1.4964324, 0.6765043, 1),\"script\":null)
+preview_params/ColorPalette = "Object(GradientTexture1D,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"gradient\":Object(Gradient,\"resource_local_to_scene\":false,\"resource_name\":\"\",\"interpolation_mode\":0,\"interpolation_color_space\":0,\"offsets\":PackedFloat32Array(0.1701603, 0.36744758, 0.55487055, 0.72256476, 0.8840937, 1),\"colors\":PackedColorArray(0.91, 0.40040007, 0.14560002, 0, 1.4705467, 0.16062647, 0, 0.53333336, 1.6594129, 0.39798272, 0, 0.61960787, 1.4758431, 0.480034, 0, 0.8666667, 1.4758431, 0.49097893, 0, 0.8666667, 0.9999998, 0.8063869, 0.35019377, 0.9137255),\"script\":null)
 ,\"width\":256,\"use_hdr\":true,\"script\":null)
 "
 nodes/vertex/0/position = Vector2(693.3333, 106.666664)

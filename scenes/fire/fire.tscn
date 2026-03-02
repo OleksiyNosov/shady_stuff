@@ -5,8 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://bqffshariur0m" path="res://scenes/fire/fire_texture_tiled.png" id="2_q1gbd"]
 
 [sub_resource type="Gradient" id="Gradient_fr8g7"]
-offsets = PackedFloat32Array(0.3489519, 0.49815044, 0.5856967, 0.8840937, 0.9802713, 1)
-colors = PackedColorArray(0.91, 0.40040007, 0.14560002, 0, 1.2589494, 0.24305318, 0.057312626, 0.53333336, 1.4758431, 0.480034, 0, 0.8666667, 1.4758431, 0.49097893, 0, 0.8666667, 1.4758431, 0.65358925, 0, 0.8666667, 1.7770933, 1.2322834, 0.56489146, 0.8901961)
+offsets = PackedFloat32Array(0.1701603, 0.36744758, 0.55487055, 0.72256476, 0.8840937, 1)
+colors = PackedColorArray(0.91, 0.40040007, 0.14560002, 0, 1.4705467, 0.16062647, 0, 0.53333336, 1.6594129, 0.39798272, 0, 0.61960787, 1.4758431, 0.480034, 0, 0.8666667, 1.4758431, 0.49097893, 0, 0.8666667, 0.9999998, 0.8063869, 0.35019377, 0.9137255)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_vrktp"]
 gradient = SubResource("Gradient_fr8g7")
@@ -31,8 +31,8 @@ fill_to = Vector2(0, 0.2022792)
 render_priority = 0
 shader = ExtResource("1_86rjs")
 shader_parameter/TextureAdd = SubResource("GradientTexture2D_ojku6")
-shader_parameter/Speed = Vector2(0, 0.2)
-shader_parameter/Scale = Vector2(4, 1)
+shader_parameter/Speed = Vector2(0, 0.5)
+shader_parameter/Scale = Vector2(1, 0.25)
 shader_parameter/TextureBase = ExtResource("2_q1gbd")
 shader_parameter/TextureSubtract = SubResource("GradientTexture2D_fr8g7")
 shader_parameter/ColorPalette = SubResource("GradientTexture1D_vrktp")
@@ -40,5 +40,6 @@ shader_parameter/ColorPalette = SubResource("GradientTexture1D_vrktp")
 [node name="Fire" type="Node3D" unique_id=1049321019]
 
 [node name="MiniFireMesh" type="MeshInstance3D" parent="." unique_id=1691731491]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0022711754, -0.0056881905, 0.00663507)
 material_override = SubResource("ShaderMaterial_q1gbd")
 mesh = ExtResource("1_q881c")
